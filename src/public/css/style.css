@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: red;
+    text-align: center;
+    margin: 3.5%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.divPaginate {
+    font-size: 2rem;
+}
