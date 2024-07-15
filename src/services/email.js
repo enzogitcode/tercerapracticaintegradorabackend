@@ -6,8 +6,8 @@ class EmailManager {
             service: "gmail",
             port: 587,
             auth: {
-                user: "coderhouse50015@gmail.com"
-                , pass: "norp renb afxw uxyq"
+                user: ""
+                , pass: ""
 
             }
         })
@@ -15,7 +15,7 @@ class EmailManager {
     async enviarCorreoCompra(email, firt_name, ticket) {
         try {
             const mailOptions = {
-                from: "Coder Test <coderhouse50015@gmail.com>",
+                from: "My Ecommerce",
                 to: email,
                 html: `<h1>Confirmación de Compra</h1>
     <p>Gracias por tu compra, ${firt_name}</p>

@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
     resetToken: {
         token: String,
         expire: Date
-    }
+    } 
 })
 
 const UserModel = mongoose.model("users", userSchema);
